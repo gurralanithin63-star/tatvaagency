@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TatvaAgency</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        header {
+            background-color: #0d6efd;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav {
+            margin-top: 10px;
+        }
+
+        section {
+            padding: 40px 20px;
+            max-width: 1000px;
+            margin: auto;
+        }
+
+        .services, .reviews {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+        }
+
+        .card {
+            background-color: white;
+            padding: 20px;
+            border-radius: 12px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            flex: 1 1 250px;
+        }
+
+        .card img {
+            width: 100%;
+            border-radius: 8px;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+            margin-top: 20px;
+        }
+
+        input, textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 5px 0 15px 0;
+            border-radius: 8px;
+            border: 1px solid #ccc;
+        }
+
+        button {
+            padding: 10px 20px;
+            background-color: #0d6efd;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #0b5ed7;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>TatvaAgency</h1>
+    <nav>
+        <a href="#services">Services</a>
+        <a href="#reviews">Reviews</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<section id="services">
+    <h2>Our Services</h2>
+    <div class="services">
+        <div class="card">
+            <h3>Digital Marketing</h3>
+            <p>Boost your business with our expert digital marketing strategies.</p>
+        </div>
+        <div class="card">
+            <h3>Business Reviews</h3>
+            <p>Get authentic reviews to enhance your credibility online.</p>
+        </div>
+        <div class="card">
+            <h3>Consulting</h3>
+            <p>We provide personalized consulting for growth and branding.</p>
+        </div>
+    </div>
+</section>
+
+<section id="reviews">
+    <h2>Client Reviews</h2>
+    <div class="reviews">
+        <div class="card">
+            <p>"TatvaAgency helped our business grow online. Highly recommend!"</p>
+            <strong>- Arjun</strong>
+        </div>
+        <div class="card">
+            <p>"Professional service and great results!"</p>
+            <strong>- Nithin</strong>
+        </div>
+    </div>
+</section>
+
+<section id="contact">
+    <h2>Contact Us</h2>
+    <form>
+        <input type="text" placeholder="Your Name" required>
+        <input type="email" placeholder="Your Email" required>
+        <input type="text" placeholder="Phone Number" required>
+        <textarea placeholder="Your Message" rows="5" required></textarea>
+        <button type="submit">Send Message</button>
+    </form>
+</section>
+
+<footer>
+    <p>&copy; 2025 TatvaAgency | Email: arjunlucky7569@gmail.com | Phone: 75695 58495</p>
+</footer>
+
+</body>
+</html>
