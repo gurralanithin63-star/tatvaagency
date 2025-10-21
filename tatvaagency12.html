@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TatvaAgency</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background-color: #f4f4f4;
+      color: #333;
+    }
+
+    header {
+      background-color: #0d6efd;
+      color: white;
+      text-align: center;
+      padding: 20px 0;
+    }
+
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    section {
+      padding: 40px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    h2 {
+      text-align: center;
+      margin-bottom: 20px;
+      color: #0d6efd;
+    }
+
+    .card {
+      background-color: white;
+      border-radius: 12px;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+      padding: 20px;
+      margin: 10px;
+    }
+
+    .grid {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+    }
+
+    .grid img {
+      width: 100%;
+      border-radius: 12px;
+    }
+
+    footer {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 20px 0;
+      margin-top: 20px;
+    }
+
+    input, textarea {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 15px;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+    }
+
+    button {
+      padding: 10px 20px;
+      background-color: #0d6efd;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #0b5ed7;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>TatvaAgency</h1>
+  <nav>
+    <a href="#about">About</a>
+    <a href="#services">Services</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#pricing">Pricing</a>
+    <a href="#team">Team</a>
+    <a href="#faq">FAQ</a>
+    <a href="#blog">Blog</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<section id="about">
+  <h2>About Us</h2>
+  <p>TatvaAgency is a creative and results-driven digital marketing and business review agency. 
+     We help brands grow online with targeted campaigns, authentic reviews, and data-driven strategies.</p>
+</section>
+
+<section id="services">
+  <h2>Our Services</h2>
+  <div class="grid">
+    <div class="card">
+      <h3>Digital Marketing</h3>
+      <p>Boost your business visibility with SEO, social media, and paid advertising.</p>
+    </div>
+    <div class="card">
+      <h3>Business Reviews</h3>
+      <p>We help businesses gain authentic reviews to build trust and reputation.</p>
+    </div>
+    <div class="card">
+      <h3>Brand Consulting</h3>
+      <p>Personalized guidance to improve brand image and customer engagement.</p>
+    </div>
+  </div>
+</section>
+
+<section id="gallery">
+  <h2>Gallery</h2>
+  <div class="grid">
+    <img src="https://via.placeholder.com/300" alt="Project 1">
+    <img src="https://via.placeholder.com/300" alt="Project 2">
+    <img src="https://via.placeholder.com/300" alt="Project 3">
+  </div>
+</section>
+
+<section id="pricing">
+  <h2>Pricing Plans</h2>
+  <div class="grid">
+    <div class="card">
+      <h3>Starter</h3>
+      <p>₹4999 / month</p>
+      <p>Basic marketing setup and review support.</p>
+    </div>
+    <div class="card">
+      <h3>Professional</h3>
+      <p>₹9999 / month</p>
+      <p>Social media marketing + monthly analytics.</p>
+    </div>
+    <div class="card">
+      <h3>Premium</h3>
+      <p>₹14999 / month</p>
+      <p>Full marketing management with reviews and SEO.</p>
+    </div>
+  </div>
+</section>
+
+<section id="team">
+  <h2>Our Team</h2>
+  <div class="grid">
+    <div class="card">
+      <img src="https://via.placeholder.com/200" alt="Nithin">
+      <h3>Nithin</h3>
+      <p>Founder & Marketing Expert</p>
+    </div>
+    <div class="card">
+      <img src="https://via.placeholder.com/200" alt="Arjun">
+      <h3>Arjun</h3>
+      <p>Digital Strategy & Review Specialist</p>
+    </div>
+  </div>
+</section>
+
+<section id="faq">
+  <h2>FAQ</h2>
+  <div class="card">
+    <h4>How do I get started?</h4>
+    <p>Contact us using the form below, and our team will guide you step by step.</p>
+  </div>
+  <div class="card">
+    <h4>Do you offer customized marketing plans?</h4>
+    <p>Yes, we tailor every plan to fit your business goals and budget.</p>
+  </div>
+</section>
+
+<section id="blog">
+  <h2>Latest Updates</h2>
+  <div class="card">
+    <h3>How to Grow Your Business with Reviews</h3>
+    <p>Discover how online reviews boost credibility and drive more sales.</p>
+  </div>
+  <div class="card">
+    <h3>Top Digital Marketing Trends 2025</h3>
+    <p>Learn the latest techniques to stay ahead in the digital world.</p>
+  </div>
+</section>
+
+<section id="contact">
+  <h2>Contact Us</h2>
+  <form>
+    <input type="text" placeholder="Your Name" required>
+    <input type="email" placeholder="Your Email" required>
+    <input type="text" placeholder="Phone Number" required>
+    <textarea rows="5" placeholder="Your Message" required></textarea>
+    <button type="submit">Send Message</button>
+  </form>
+</section>
+
+<section id="map">
+  <h2>Our Location</h2>
+  <div class="card">
+    <iframe 
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3916.202650533169!2d77.5946!3d12.9716!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae1670c6f9!2sBangalore!5e0!3m2!1sen!2sin!4v0000000000000"
+      width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+  </div>
+</section>
+
+<footer>
+  <p>&copy; 2025 TatvaAgency | Email: arjunlucky7569@gmail.com | Phone: 75695 58495</p>
+</footer>
+
+</body>
+</html>
